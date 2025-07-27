@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  margin: 0;
+  font-family:'Roboto', sans-serif;
+}
+
+.navbar {
+  background: #ee79d1;
+  color:white;
+  padding: 8px;
+}
+
+.navbar a {
+  color:rgb(255, 255, 255);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer {
+  background: #d85ab8;
+  color: blueviolet;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.home, .review-page, .author-page {
+  padding: 20px;
+}
+
+.reactions button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.reactions .active {
+  font-weight: bold;
+  color: red;
+} 
+.post-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+.post-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
