@@ -1,24 +1,23 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import ReviewPage from "./pages/ReviewPage";
 import AuthorPage from "./pages/AuthorPage";
-import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <Router>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/review/:id" element={<ReviewPage />} />
-        <Route path="/author/:authorName" element={<AuthorPage />} />
+        <Route path="/author/:author" element={<AuthorPage />} />
       </Routes>
-      <Footer />
-    </Router>
+      
+    </div>
   );
-}
+};
 
 export default App;

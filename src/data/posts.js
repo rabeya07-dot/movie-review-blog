@@ -6,6 +6,7 @@ const posts = [
     author: "Nolan",
     comments: ["Amazing!", "Loved the storytelling."],
     reactions: { like: 10, love: 5, wow: 7 },
+    image:"/p1.jpeg"
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ const posts = [
     author: "Nolan",
     comments: ["Mind-blowing!", "I had to watch it twice."],
     reactions: { like: 12, love: 7, wow: 8 },
+     image:"/p2.jpeg"
   },
   {
     id: 3,
@@ -22,7 +24,7 @@ const posts = [
     author: "Nolan",
     comments: ["Cried at the end.", "Music was epic."],
     reactions: { like: 14, love: 8, wow: 4 },
-    image: "https://m.media-amazon.com/images/I/81aZ0cKZguL._AC_SY679_.jpg"
+    image:"/p3.jpeg"
   },
   {
     id: 4,
@@ -31,6 +33,7 @@ const posts = [
     author: "Rabeya",
     comments: ["So emotional!", "Cried like a baby."],
     reactions: { like: 9, love: 11, wow: 2 },
+    image:"/p4.jpeg"
   },
   {
     id: 5,
@@ -39,6 +42,7 @@ const posts = [
     author: "Rabeya",
     comments: ["Very creative!", "Loved the characters."],
     reactions: { like: 10, love: 6, wow: 5 },
+    image:"/p5.jpeg"
   },
 ];
 
